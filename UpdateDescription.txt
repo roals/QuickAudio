@@ -1,1 +1,5 @@
-
+- Changelog removed from log file and is now saved as a separate file in the log folder
+- Added FileNamePrefix right after naming the Project variable to specify the prefix of each audio file name before the number 
+E.g., (FileNamePrefix)-7.wav
+- Version number check and auto updater implemented
+- Cleaned up naming scheme so that the  'Project' variable can be renamed without breaking functionality
