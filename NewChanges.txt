@@ -3,3 +3,6 @@
 E.g., (FileNamePrefix)-7.wav
 - Version number check and auto updater implemented
 - Cleaned up naming scheme so that the  'Project' variable can be renamed without breaking functionality
+- Added dynamic finished alert
+- Fixed overwriting ChangeLog.txt issue
+- Added granular control of location data use
