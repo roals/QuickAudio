@@ -4,7 +4,7 @@ iOS Shortcut that instantly starts recording high quality WAVs when activated an
                   •••••••••••••••••••••••••••••
                    - - - - QuickAudio - - - - 
                   •••••••••••••••••••••••••••••
-                         QuickRecord v1.2
+                         QuickAudio v1.2
                   Created by: /u/ThatPineapple
                        Last updated: 2/20/19
                                 ♥️
