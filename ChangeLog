@@ -1,0 +1,24 @@
+v1.2 
+- Changelog removed from log file and is now saved as a separate file in the log folder
+- Added FileNamePrefix right after naming the Project variable to specify the prefix of each audio file name before the number 
+E.g., (FileNamePrefix)-7.wav
+- Version number check and auto updater implemented
+- Cleaned up naming scheme so that the 'Project' variable can be renamed without breaking functionality
+- Added 'File Size' to log file
+- Added dynamic end alert
+- Fixed overwriting ChangeLog.txt issue
+- Location logging is now optional with LCheck.txt ('Yes' for logging, 'No' for no logging)
+- Location logging question only prompts if LCheck.txt contains 'Yes' or 'No'
+
+v1.1
+- Log file location moved to /Shortcuts/Project/log/
+- Log file updated to display changelog 
+- Introduction of UniqueID so that when a previously saved file is deleted, the file name continues to number correctly. 
+E.g., Previously, deleting 'File-3' manually would cause a newly recorded file to be named 'File-3' and log the new file as 'File-3' as new entry. UniqueID (saved in the 'log' folder as 'identifier.txt') continues a numbering scheme regardless of file deletions and prevents duplicate naming in the log file (RecordLog.txt).
+- Added fast approximate location to log
+
+v1.0
+- Immediately starts recording audio when launched
+- Audio recording(s) saved to iCloud Drive to /Shortcuts/Project/
+- Automatically creates an index file that logs each recording formatted as: (File Name) (Duration) (Date/Time Created)
+- Log of recordings saved as 'RecordLog.txt'
